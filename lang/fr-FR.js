@@ -6,8 +6,8 @@ export default {
         START: 'Démarrer',
         DESIGNER: 'Concepteur de Vaisseaux',
         CALCULATOR: '> Calculatrice',
-        SHIP_CALCULATOR: 'Vaisseaux',
-        CAPT_CALCULATOR: 'Vaisseaux Mères',
+        SHIP_CALCULATOR: 'Vaisseau',
+        CAPT_CALCULATOR: 'Vaisseau Mère',
         MAP: 'Carte',
         MORE: 'Suite',
         YOLOL: 'Yolol',
@@ -15,7 +15,7 @@ export default {
         OPTIONS: 'Options',
         OPTIONS_LANGUAGE: '> Changer la langue',
         OPTIONS_EXTRA_TITLE: '> Extras',
-        OPTIONS_CHANGELOG: 'Journal des modifications'
+        OPTIONS_CHANGELOG: 'Liste des modifications'
     },
 
     // ---------------------------
@@ -28,7 +28,7 @@ export default {
         DEVELOPER_NOTE: 'Outils crées par ',
         DEVELOPER_NOTE_BY: ' par ',
         DEVELOPER_NOTE_LIKE: 'Vous aimez mon travail ?',
-        DEVELOPER_NOTE_COFFEE: 'Offrez moi un caffé'
+        DEVELOPER_NOTE_COFFEE: 'Offrez moi un café'
     },
 
     // ---------------------------
@@ -42,7 +42,7 @@ export default {
 
         CARD: {
             TRUSTER_TITLE: 'Propulseur',
-            PROP_FUEL_ENERGY_TITLE: 'Carburant et Énergie',
+            PROP_FUEL_ENERGY_TITLE: 'Carburant et énergie',
             WEIGHT_MISC_TITLE: 'Poids et cargaison',
             TOOLS_TITLE: 'Outils',
             WEAPON_TITLE: 'Armes',
@@ -50,9 +50,9 @@ export default {
         },
 
         SAVE: {
-            SHIP_CALC_SAVE_TEXT: 'Votre url de calcul du vaisseau est prête.',
-            SHIP_CALC_COPY_CLIPBOARD: 'Copier dans le presse-papiers',
-            SAVE_BUTTON: 'SAUVEGARDER LES DONNÉES',
+            SHIP_CALC_SAVE_TEXT: 'le lien url pour partager la feuille de calcul est prêt.',
+            SHIP_CALC_COPY_CLIPBOARD: 'Copier dans le presse-papier',
+            SAVE_BUTTON: 'SAUVEGARDER LA FEUILLE DE CALCUL',
             RESET_BUTTON: 'RÉINITIALISER'
         },
 
@@ -111,54 +111,54 @@ export default {
 
         WEIGHT_CARGO: {
             WEIGHT: 'Poids total en tonnes',
-            WEIGHT_TOOLTIP: 'Vous pouvez voir la masse de votre vaisseau si vous essayez de le ramasser avec [P]. (tonnes =kg/1000)',
+            WEIGHT_TOOLTIP: "Pour connaître la masse du vaisseau essayez de le stocker dans l\'inventaire avec [P]. (tonnes =kg/1000)",
             CRATES: 'Nombre de caisses de minerai'
         },
 
         TOOLS: {
             MINING_LASER: 'Laser de minage',
-            MINING_BATTERY_TIME: 'Temps de maintien de la batterie en secondes',
+            MINING_BATTERY_TIME: 'Temps de fonctionnement sur batterie en secondes',
             ORE_COLLECTOR: 'Collecteur de minerais',
-            MATERIAL_SCANNER: 'Scanner de points de matériaux',
+            MATERIAL_SCANNER: 'Scanner de matériaux',
             LASER_DESIGNATOR: 'Désignateur laser',
             RANGEFINDER: 'Télémètre'
         },
 
         WEAPON: {
-            AUTO_CANNON: 'Cannon automatique',
+            AUTO_CANNON: 'Cannon Automatique',
             LASER_CANNON: 'Cannon Laser',
             PLASMA_CANNON: 'Cannon Plasma',
-            RAIL_CANNON: 'Cannon à rail'
+            RAIL_CANNON: 'Cannon Electromagnétique'
         },
 
         CALCULATION: {
             SPEED: 'Vitesse',
-            FORWARD_SPEED: 'Vitesse de marche avant',
+            FORWARD_SPEED: 'Vitesse de croisière',
             BACKWARD_SPEED: 'Vitesse de marche arrière',
-            FORWARD_SPEED_HALF: 'Vitesse d\'avancement (demi-caisses)',
-            FORWARD_SPEED_FULL: 'Vitesse d\'avancement (Caisses pleines)',
+            FORWARD_SPEED_HALF: 'Vitesse demi charge (cargaison chargé à moitié)',
+            FORWARD_SPEED_FULL: 'Vitesse pleine charge (chargement max)',
 
-            FORWARD_SPEED_HALF_TOOLTIP: 'Les demi-caisses sont calculées sur la base du poids moyen approximatif des minerais (15t/pile).',
-            FORWARD_SPEED_FULL_TOOLTIP: 'Les caisses pleines sont calculées avec le poids le plus élevé de minerais (26t/pile - Lukium)',
+            FORWARD_SPEED_HALF_TOOLTIP: 'Le poids de la cargaison est calculé sur la base du poids moyen approximatif des minerais (15t/pile).',
+            FORWARD_SPEED_FULL_TOOLTIP: 'Le poids de la cargaison est calculé à partir du poids de minerais le plus élevé (26t/pile - Lukium)',
 
-            FLIGHT_TIME_HEAD: 'Durée de vol',
-            FLIGHT_TIME: 'Durée de vol',
-            FLIGHT_TIME_FUEL: 'Carburant',
-            FLIGHT_TIME_PROP: 'Combustible',
+            FLIGHT_TIME_HEAD: 'Temps de vol',
+            FLIGHT_TIME: 'Temps de vol',
+            FLIGHT_TIME_FUEL: 'Autonomie de la pile à combustible',
+            FLIGHT_TIME_PROP: 'Autonomie du moteur ionique',
             FLIGHT_TIME_TOOLTIP: 'Le temps de vol est calculé avec la pleine poussée avant et la moitié de la poussée de manœuvre.',
 
-            FLIGHT_LENGTH: 'Durée de vol',
-            FLIGHT_LENGTH_HALF: 'Durée du vol (demi-caisses)',
-            FLIGHT_LENGTH_FULL: 'Durée du vol (caisses pleines)',
+            FLIGHT_LENGTH: 'Temps de vol',
+            FLIGHT_LENGTH_HALF: 'Temps de vol (demi-charge)',
+            FLIGHT_LENGTH_FULL: 'Temps de vol (pleine-charge)',
 
             THRUST: 'Poussée',
-            FORWARD_THRUST: 'Poussée avant totale',
+            FORWARD_THRUST: 'Poussée moteur principal',
             BACKWARD_THRUST: 'Poussée totale vers l\'arrière',
             MANEUVER_THRUST: 'Poussée totale de manœuvre',
 
             FUEL_ENERGY: 'Énergie / Combustible',
-            TOTAL_PROPELLANT: 'Total Combustible',
-            TOTAL_FUEL: 'Total Carburant',
+            TOTAL_PROPELLANT: 'Carburant propulsif',
+            TOTAL_FUEL: 'Carburant pile à combustible',
 
             TOTAL_HEAT_HEAD: 'Production de chaleur',
             TOTAL_HEAT_SUB: '(estimé)',
@@ -206,7 +206,7 @@ export default {
         HEADLINE_SUB: 'yep, c\'est moi...',
         ABOUT_TITLE: 'A propos de moi',
         ABOUT_TEXT: 'Salut, je m\'appelle PoLLi. J\'ai fait ce site web un peu fonctionnel...',
-        CONTACT_TEXT: 'Si vous souhaitez prendre contact avec moi, vous pouvez le faire en utilisant les coordonnées suivantes.',
+        CONTACT_TEXT: 'Pour me contacter, le lien est ici.',
         CHANNELS: 'Chaînes',
         PERSONAL_DISCORD: 'Discord Personnel: ',
         GITHUB: 'Github',
